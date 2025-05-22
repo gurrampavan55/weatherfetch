@@ -1,0 +1,110 @@
+body {
+  background: linear-gradient(135deg, #e0f7fa 0%, #fffde4 100%);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 600px;
+  margin: 48px auto;
+  background: #fff;
+  padding: 36px 32px 32px 32px;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2.2rem;
+  color: #222;
+  margin-bottom: 18px;
+}
+
+#cityInput {
+  font-size: 1.1rem;
+  border-radius: 8px;
+  border: 2px solid #b2ebf2;
+  padding: 8px 14px;
+  transition: border 0.2s;
+}
+#cityInput:focus {
+  border: 2px solid #0288d1;
+  outline: none;
+}
+
+.btn-primary {
+  font-size: 1.1rem;
+  border-radius: 8px;
+  padding: 8px 22px;
+  background: linear-gradient(90deg, #0288d1 60%, #26c6da 100%);
+  border: none;
+  font-weight: 600;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(2,136,209,0.08);
+}
+.btn-primary:hover {
+  background: linear-gradient(90deg, #26c6da 60%, #0288d1 100%);
+}
+
+#result {
+  margin-top: 28px;
+  padding: 18px 0 0 0;
+  min-height: 120px;
+}
+#result h4 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #222;
+}
+#result img {
+  width: 70px;
+  height: 70px;
+  margin: 10px 0 10px 0;
+  filter: brightness(0.5) contrast(1.2) drop-shadow(0 2px 6px rgba(2,136,209,0.10));
+}
+#result p {
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+
+#history {
+  margin-top: 24px;
+}
+.history-btn {
+  background: #e1f5fe;
+  border: 1.5px solid #0288d1;
+  color: #0288d1;
+  border-radius: 6px;
+  padding: 6px 16px;
+  margin: 4px 6px 4px 0;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.history-btn:hover {
+  background: #0288d1;
+  color: #fff;
+}
+.clear-btn {
+  background: #fff3e0;
+  border: 1.5px solid #ff9800;
+  color: #ff9800;
+  border-radius: 6px;
+  padding: 6px 16px;
+  margin: 4px 0 0 0;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.clear-btn:hover {
+  background: #ff9800;
+  color: #fff;
+}
+
+.text-danger {
+  color: #d32f2f;
+  font-weight: 500;
+  margin-top: 10px;
+}
