@@ -1,6 +1,6 @@
 ﻿# Weather App
 
-A modern weather app using the OpenWeatherMap API
+A modern weather app using the OpenWeatherMap API.
 
 ## Features
 - Search for current weather by city name
