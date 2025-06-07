@@ -18,4 +18,4 @@ A modern weather app using the OpenWeatherMap API.
 
 ---
 
-Made with HTML, CSS, and JavaScript.
+Made with HTML, CSS, and JavaScript........................
