@@ -17,5 +17,6 @@ A modern weather app using the OpenWeatherMap API.
 **Do not share your API key publicly.**
 
 ---
-Made with HTML, CSS, and JavaScript.
+Made with HTML, CSS, and JavaScript..
+
 
